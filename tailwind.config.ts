@@ -9,6 +9,10 @@ const config: Config = {
         './app/components/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     theme: {
+        container: {
+            padding:'1.25rem'
+        },
+
         extend: {
             fontFamily: {
                 intel: ['Intel', 'sans-serif'],

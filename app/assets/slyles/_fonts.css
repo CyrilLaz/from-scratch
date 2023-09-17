@@ -13,13 +13,6 @@
   font-weight: normal;
 }
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/interbold.woff2') format('woff2'),
-    url('../fonts/interbold.woff') format('woff'),
-    url('../fonts/interbold.ttf') format('truetype');
-  font-weight: bold;
-}
-@font-face {
   font-family: 'Garamond';
   src: url('../fonts/Ebgaramondmedium.woff2') format('woff2'),
     url('../fonts/Ebgaramondmedium.woff') format('woff'),

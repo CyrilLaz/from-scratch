@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@import url('./_fonts.css');
 
+:root {
 }
 
-
 body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Intel', sans-serif;
+	@apply bg-primaryColor;
 }

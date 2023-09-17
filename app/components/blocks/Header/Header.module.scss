@@ -1,0 +1,22 @@
+.header {
+    @apply flex px-1.25 py-1.5 items-start justify-between;
+
+    &__nav {
+        
+        > ul {
+            @apply sm:flex;
+            > li {
+                @apply mb-3 last-of-type:mb-0 sm:mx-3 sm:mb-0 sm:last-of-type:mr-0;
+            }
+        }
+    }
+
+    &__link {
+        @apply text-link;
+        text-underline-offset: 0.3em;
+
+        &_active {
+            @apply text-link_active;
+        }
+    }
+}

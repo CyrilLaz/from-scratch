@@ -1,4 +1,5 @@
 .cover {
+    @apply mb-7;
     &__bg {
         @apply image-like-bg absolute right-0 bottom-0 z-0;
     }

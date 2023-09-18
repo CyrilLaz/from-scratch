@@ -1,0 +1,16 @@
+.intro {
+    margin-bottom: 37px;
+    &__header {
+        @apply flex;
+        >h2 {
+            @apply text-gray-400 text-base mr-7;
+        }
+        >time {
+            @apply text-gray-400 text-base whitespace-nowrap;
+
+        }
+    }
+    >p{
+        @apply text-gray-200 text-base/normal mt-6;
+    }
+}

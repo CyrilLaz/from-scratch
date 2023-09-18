@@ -21,7 +21,8 @@ const config: Config = {
                 intel: ['Intel', 'sans-serif'],
                 garamond: ['Garamond', 'sans-serif'],
             },
-            fontSize: { '2lg': '1.38rem' },
+            lineHeight: { normal: '1.35rem' },
+            fontSize: { base: ['1rem', '1.2rem'] },
             spacing: { 1.25: '1.25rem', 1.5: '1.5rem', 2.5: '2.5rem' },
             borderRadius: { layout: '30px' },
             container: {
@@ -32,7 +33,7 @@ const config: Config = {
                 white: colors.white,
                 transparent: colors.transparent,
                 yellow: '#FEE42A',
-                gray: { 500: '#343434', 200: '#F5F5F5' },
+                gray: { 500: '#343434', 400: '#CCC', 200: '#F5F5F5' },
             },
         },
     },

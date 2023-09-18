@@ -1,6 +1,7 @@
 import '@/assets/slyles/globals.scss'
 import { Cover } from 'components/blocks/Cover/Cover'
 import { Header } from 'components/blocks/Header/Header'
+import { Intro } from 'components/blocks/Intro/Intro'
 
 export default function Home() {
     return (
@@ -8,7 +9,7 @@ export default function Home() {
             <Header />
             <main>
                 <Cover />
-                {'Intro'}
+                <Intro />
                 {'Reasons'}
                 {'HowTo'}
             </main>

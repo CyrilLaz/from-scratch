@@ -8,7 +8,7 @@ interface ILayout {
 export const Layout: FC<ILayout> = ({ children, className }) => {
     return (
         <div className={className}>
-            <div className="container">{children}</div>
+            <div className="container relative">{children}</div>
         </div>
     )
 }

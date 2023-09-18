@@ -1,0 +1,19 @@
+.cover {
+    &__bg {
+        @apply image-like-bg absolute right-0 bottom-0 z-0;
+    }
+
+    &__title {
+        @apply relative font-garamond mx-auto text-white text-7xl flex flex-col z-10 max-w-lg;
+
+        > span:first-of-type {
+            @apply uppercase;
+        }
+        > span:nth-of-type(2n) {
+            text-align: center;
+        }
+        > span:nth-of-type(3n) {
+            text-align: end;
+        }
+    }
+}

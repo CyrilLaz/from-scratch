@@ -1,6 +1,9 @@
 import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 import colors from 'tailwindcss/colors'
+// import coverImage from '@/assets/images/cover.svg'
+
+// console.log(coverImage);
 
 const primaryColor = '#131313'
 const config: Config = {
@@ -10,7 +13,7 @@ const config: Config = {
     ],
     theme: {
         container: {
-            padding:'1.25rem'
+            padding: '1.25rem',
         },
 
         extend: {
@@ -34,7 +37,7 @@ const config: Config = {
         },
     },
     plugins: [
-        plugin(({ addComponents, theme }) => {
+        plugin(({ addComponents, addUtilities, theme }) => {
             addComponents({
                 '.centred-block': { display: 'flex', margin: '0 auto' },
                 '.text-link': {
@@ -53,7 +56,14 @@ const config: Config = {
                         textDecorationLine: 'none',
                     },
                 },
-            })
+            }),
+                addUtilities({
+                    '.image-like-bg': {
+                        objectPosition: 'center',
+                        objectFit: 'cover',
+                        pointerEvents: 'none',
+                    },
+                })
         }),
     ],
 }

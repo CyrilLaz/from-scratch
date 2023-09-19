@@ -1,9 +1,6 @@
 import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 import colors from 'tailwindcss/colors'
-// import coverImage from '@/assets/images/cover.svg'
-
-// console.log(coverImage);
 
 const primaryColor = '#131313'
 const config: Config = {
@@ -21,8 +18,9 @@ const config: Config = {
                 intel: ['Intel', 'sans-serif'],
                 garamond: ['Garamond', 'sans-serif'],
             },
-            lineHeight: { normal: '1.35rem' },
-            fontSize: { base: ['1rem', '1.2rem'] },
+            lineHeight: { normal: '1.35rem', tiny: '1.15' },
+            fontWeight: { bold: '700', normal: '500', regular: '400' },
+            fontSize: { base: ['1rem', '1.2rem'], '3xl': '1.75rem' },
             spacing: { 1.25: '1.25rem', 1.5: '1.5rem', 2.5: '2.5rem' },
             borderRadius: { layout: '30px' },
             container: {

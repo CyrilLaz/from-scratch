@@ -1,0 +1,27 @@
+.reasons {
+    @apply py-2.5;
+    &__header {
+        @apply mb-8 text-gray-500 font-garamond text-3xl/tiny font-normal;
+        > span {
+            @apply first-of-type:text-end block;
+        }
+    }
+    > p {
+        @apply text-gray-500 text-xl/normal mb-8;
+    }
+
+    &__list {
+        @apply list-disc pl-4;
+    }
+
+    &__item {
+        @apply mb-4 last-of-type:m-0;
+        
+        > p {
+            @apply text-base/normal;
+            > span {
+                @apply font-bold;
+            }
+        }
+    }
+}

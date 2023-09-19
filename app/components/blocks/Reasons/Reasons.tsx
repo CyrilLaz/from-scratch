@@ -2,15 +2,13 @@ import { Layout } from 'components/Layout/Layout'
 import { FC } from 'react'
 import styles from './Reasons.module.scss'
 import { ReasonList } from './ReasonList'
+import { Heading } from 'components/ui/Heading/Heading'
 
 export const Reasons: FC = () => {
     return (
         <Layout className="bg-yellow">
             <section className={styles.reasons}>
-                <h3 className={styles.reasons__header}>
-                    <span>Почему чистый лист</span>
-                    <span> — такой cтрашный?</span>
-                </h3>
+                <Heading className={styles.reasons__heading} text={['Почему чистый лист','— такой cтрашный?']}/>
                 <p>
                     Сам по себе чистый лист, конечно, не страшный. Боимся мы
                     чаще всего объёма работы, которую предстоит сделать. Усилия,

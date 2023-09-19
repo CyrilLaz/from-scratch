@@ -1,13 +1,11 @@
 .reasons {
     @apply py-2.5;
-    &__header {
-        @apply mb-8 text-gray-500 font-garamond text-3xl/tiny font-normal;
-        > span {
-            @apply first-of-type:text-end block;
-        }
-    }
     > p {
         @apply text-gray-500 text-xl/normal mb-8;
+    }
+
+    &__heading {
+        @apply text-gray-500;
     }
 
     &__list {

@@ -18,7 +18,7 @@ const config: Config = {
                 intel: ['Intel', 'sans-serif'],
                 garamond: ['Garamond', 'sans-serif'],
             },
-            lineHeight: { normal: '1.35rem', tiny: '1.15' },
+            lineHeight: { normal: '1.35', tiny: '1.15' },
             fontWeight: { bold: '700', normal: '500', regular: '400' },
             fontSize: { base: ['1rem', '1.2rem'], '3xl': '1.75rem' },
             spacing: { 1.25: '1.25rem', 1.5: '1.5rem', 2.5: '2.5rem' },

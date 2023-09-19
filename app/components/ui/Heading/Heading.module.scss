@@ -1,0 +1,6 @@
+.heading {
+    @apply mb-8 font-garamond text-3xl/tiny font-normal;
+    > span {
+        @apply block odd:text-end;
+    }
+}

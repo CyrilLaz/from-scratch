@@ -1,0 +1,17 @@
+.footer {
+    @apply flex p-5 justify-between -mt-[1px];
+    > p {
+        @apply text-gray-200 text-base/normal uppercase;
+    }
+
+    &__links {
+        @apply flex;
+        >li{
+            @apply mr-4 last-of-type:mr-0;
+        }
+    }
+
+    &__link {
+        @apply text-sm text-gray-200;
+    }
+}

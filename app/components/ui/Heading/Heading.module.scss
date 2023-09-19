@@ -1,5 +1,5 @@
 .heading {
-    @apply mb-8 font-garamond text-3xl/tiny font-normal;
+    @apply mb-8 font-garamond text-3xl/tiny font-normal max-w-lg mx-auto  sm:flex sm:justify-evenly;
     > span {
         @apply block odd:text-end;
     }

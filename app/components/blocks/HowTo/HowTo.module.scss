@@ -1,0 +1,14 @@
+.howTo {
+    @apply py-2.5;
+    > p {
+        @apply text-gray-200 text-xl/normal mb-8;
+    }
+
+    &__heading {
+        @apply text-gray-200;
+    }
+
+    &__articles {
+        @apply flex justify-center flex-wrap gap-8;
+    }
+}

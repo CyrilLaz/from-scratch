@@ -1,0 +1,57 @@
+.card {
+    @apply rounded-layout p-5 max-w-sm;
+
+    &__content {
+        > h4 {
+            @apply text-[22px]/normal font-garamond mb-2;
+        }
+        > p {
+            @apply text-base/normal;
+        }
+    }
+
+    &__author {
+        @apply mb-2;
+        > figcaption {
+            @apply text-base/normal mt-2 font-bold;
+        }
+    }
+
+    &_type_dark {
+        @apply bg-gray-500;
+
+        .card__content {
+            > h4 {
+                @apply text-gray-200;
+            }
+            > p {
+                @apply text-gray-200;
+            }
+        }
+
+        .card__author {
+            > figcaption {
+                @apply text-gray-200;
+            }
+        }
+    }
+
+    &_type_yellow {
+        @apply bg-yellow;
+
+        .card__content {
+            > h4 {
+                @apply text-gray-500;
+            }
+            > p {
+                @apply text-gray-500;
+            }
+        }
+
+        .card__author {
+            > figcaption {
+                @apply text-gray-500;
+            }
+        }
+    }
+}

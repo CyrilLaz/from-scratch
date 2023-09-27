@@ -14,9 +14,9 @@
 }
 @font-face {
   font-family: 'Garamond';
-  src: url('../fonts/Ebgaramondmedium.woff2') format('woff2'),
-    url('../fonts/Ebgaramondmedium.woff') format('woff'),
-    url('../fonts/Ebgaramondmedium.ttf') format('truetype');
+  src: url('../fonts/ebgaramondmedium.woff2') format('woff2'),
+    url('../fonts/ebgaramondmedium.woff') format('woff'),
+    url('../fonts/ebgaramondmedium.ttf') format('truetype');
   font-weight: 500;
 }
 @font-face {
